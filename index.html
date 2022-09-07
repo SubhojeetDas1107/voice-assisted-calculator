@@ -5,48 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href="/logo.png" rel="icon" type="image/x-icon">
+    <meta property="og:title" content="Calculator for everyone">
+    <meta property="og:description" content="This is a calculator developed by Subhojeet Das">
+    <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQlhDeuHe9SR-O0yQnVQS0sq-FixIKMmKJyg&usqp=CAU">
     <title>Calculator</title>
 </head>
 <body>
-    <div class="container">
-        <h1>A Simple Calculator</h1>
-        <div class="calculator">
-            <input type="text" name="screen" id="screen">
-        <table>
-            <tr>
-                <td><button>(</button></td>
-                <td><button>)</button></td>
-                <td><button>C</button></td>
-                <td><button>%</button></td>
-            </tr>
-            <tr>
-                <td><button>7</button></td>
-                <td><button>8</button></td>
-                <td><button>9</button></td>
-                <td><button>X</button></td>
-            </tr>
-            <tr>
-                <td><button>4</button></td>
-                <td><button>5</button></td>
-                <td><button>6</button></td>
-                <td><button>-</button></td>
-            </tr>
-            <tr>
-                <td><button>1</button></td>
-                <td><button>2</button></td>
-                <td><button>3</button></td>
-                <td><button>+</button></td>
-            </tr>
-            <tr>
-                <td><button>0</button></td>
-                <td><button>.</button></td>
-                <td><button>/</button></td>
-                <td><button>=</button></td>
-            </tr>
-        </table>
+    <div class="toogleBtn"></div>
+    <div class="calculator">
+        <div class="buttons">
+            <h2 id="value"></h2>
+            <span id="clear">Clear</span>
+            <span>/</span>
+            <span>*</span>
+            <span>7</span>
+            <span>8</span>
+            <span>9</span>
+            <span>-</span>
+            <span>4</span>
+            <span>5</span>
+            <span>6</span>
+            <span id="plus">+</span>
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>0</span>
+            <span>00</span>
+            <span>.</span>
+            <span id="equal">=</span>
+        </div>
     </div>
-    </div>
-    
 </body>
 <script src="logic.js"></script>
 </html>

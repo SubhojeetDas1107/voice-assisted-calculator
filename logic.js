@@ -1,27 +1,25 @@
-let screen = document.getElementById('screen');
-buttons = document.querySelectorAll('button');
-let screenValue = '';
-for (item of buttons) {
-    item.addEventListener('click', (e) => {
-        buttonText = e.target.innerText;
-        console.log('Button text is ', buttonText);
-        if (buttonText == 'X') {
-            buttonText = '*';
-            screenValue += buttonText;
-            screen.value = screenValue;
-        }
-        else if (buttonText == 'C') {
-            screenValue = "";
-            screen.value = screenValue;
-        }
-        else if (buttonText == '=') {
-            screen.value = eval(screenValue);
-        }
-        else {
-            screenValue += buttonText;
-            screen.value = screenValue;
-        }
+let buttons = document.querySelector('.buttons');
+let btn = document.querySelectorAll('span');
+let value = document.getElementById('value');
+let toogleBtn = document.querySelector('.toogleBtn');
+let body = document.querySelector('body');
 
+for(let i=0; i<btn.length; i++){
+    btn[i].addEventListener("click", function(){
+
+        if(this.innerHTML=="="){
+            value.innerHTML = eval(value.innerHTML);
+        }else{
+            if(this.innerHTML=="Clear"){
+                value.innerHTML = "";
+            }
+            else{
+                value.innerHTML += this.innerHTML;
+            }
+        }
     })
 }
 
+toogleBtn.onclick = function(){
+    body.classList.toggle('dark');
+}
