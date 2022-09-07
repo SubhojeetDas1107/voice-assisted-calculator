@@ -24,6 +24,10 @@
   </p>
 </div>
 
+![Screenshot from 2022-09-08 00-02-14](https://user-images.githubusercontent.com/80981317/188952973-51eeb9e9-3b33-49bd-9edf-7b5d1065bc90.png)
+![Screenshot from 2022-09-08 00-02-19](https://user-images.githubusercontent.com/80981317/188952978-023398a0-dafe-4c3b-9601-28b7df4971f8.png)
+
+
 ## Installation
 * Clone Project on Github
 ```
@@ -37,7 +41,7 @@ Feel free to contribute!
 - Make your changes and commit them
 - Push your changes to the repository
 - Open a pull request
-- Wait for the pull request to be merged
+- Wait for the pull request to be merged!
 - **Thank you!** 
 
 ## Show your support
