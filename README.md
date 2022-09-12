@@ -8,10 +8,13 @@
 
 <br />
 
-  <h3 align="center">Calculator</h3>
+  <h1 align="center">Calculator</h3>
+
+  ![preview](https://user-images.githubusercontent.com/80981317/189726874-3e1c9dd0-a11e-4711-b336-c196c8932a93.jpg)
+
 
   <p align="center">
-  A simple calculator with dark and light theme
+  A simple calculator with audio assistant and dark & light theme
     <br />
     <a href="https://subhojeetdas1107.github.io/voice-assisted-calculator/"><strong>View Live Project »</strong></a>
     <br />
@@ -24,8 +27,6 @@
   </p>
 </div>
 
-![Screenshot from 2022-09-12 20-43-20](https://user-images.githubusercontent.com/80981317/189699786-2f9cdc34-6790-40c2-bb2b-198f7b32c198.png)
-![Screenshot from 2022-09-12 20-43-30](https://user-images.githubusercontent.com/80981317/189699798-995e28ba-49f8-4292-bb84-b6d038f65511.png)
 
 
 
@@ -34,6 +35,10 @@
 ```
 git clone https://github.com/SubhojeetDas1107/voice-assisted-calculator.git
 ```
+
+![Screenshot from 2022-09-12 20-43-20](https://user-images.githubusercontent.com/80981317/189699786-2f9cdc34-6790-40c2-bb2b-198f7b32c198.png)
+![Screenshot from 2022-09-12 20-43-30](https://user-images.githubusercontent.com/80981317/189699798-995e28ba-49f8-4292-bb84-b6d038f65511.png)
+
 
 ## Contribution
 Feel free to contribute!
