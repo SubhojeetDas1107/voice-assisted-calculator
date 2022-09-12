@@ -132,7 +132,7 @@ function evaluate(input){
 function speakText()
 {
          responsiveVoice.speak(utterresult);
-         alert('speak successful');
+        //  alert('speak successful');
        }
 
 

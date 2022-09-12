@@ -93,24 +93,27 @@ body{
 }
 .tooltip{
 	width: 200px;
-	font-size: 15px;
-	position: absolute;
-	background-color: #dddddd;
-	color: #636363;
-	padding: 10px;
-	top: 45px;
-	transform: translateX(50px);
-	border-radius: 5px;
+    font-size: 15px;
+    position: absolute;
+    background-color: #dddddd;
+    color: #636363;
+    padding: 10px;
+    top: 100px;
+    left: 80px;
+    transform: translateX(50px);
+    border-radius: 5px;
 	visibility: hidden;
 }
 .tooltip::before{
 	content: '';
-	position: absolute;
-	border-width: 5px;
-	border-style: solid;
-	border-color:transparent #dddddd transparent transparent;
-	left: 0;
-	margin-left: -10px;
+    position: absolute;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent #dddddd transparent transparent;
+    left: 180px;
+    top: -10px;
+    rotate: 90deg;
+    margin-left: -10px;
 }
 #output-microphone:hover .tooltip{
 	visibility: visible;
