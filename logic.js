@@ -98,6 +98,7 @@ microphone.onclick=function(){
 	"by":"/",
 	"reminder":"%",
 	"mod":"%",
+	"Mod":"%",
 	"remainder":"%"}
 	
 	recognition.onresult = function(event){
