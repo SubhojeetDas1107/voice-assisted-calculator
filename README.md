@@ -24,8 +24,9 @@
   </p>
 </div>
 
-![Screenshot from 2022-09-08 00-02-14](https://user-images.githubusercontent.com/80981317/188952973-51eeb9e9-3b33-49bd-9edf-7b5d1065bc90.png)
-![Screenshot from 2022-09-08 00-02-19](https://user-images.githubusercontent.com/80981317/188952978-023398a0-dafe-4c3b-9601-28b7df4971f8.png)
+![Screenshot from 2022-09-12 20-43-20](https://user-images.githubusercontent.com/80981317/189699786-2f9cdc34-6790-40c2-bb2b-198f7b32c198.png)
+![Screenshot from 2022-09-12 20-43-30](https://user-images.githubusercontent.com/80981317/189699798-995e28ba-49f8-4292-bb84-b6d038f65511.png)
+
 
 
 ## Installation
