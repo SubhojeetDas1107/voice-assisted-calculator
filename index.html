@@ -7,35 +7,53 @@
     <link rel="stylesheet" href="style.css">
     <link href="/logo.png" rel="icon" type="image/x-icon">
     <meta property="og:title" content="Calculator for everyone">
-    <meta property="og:description" content="This is a calculator developed by Subhojeet Das">
+    <meta property="og:description" content="This is a simple voice based calculator with dual theme developed by Subhojeet Das">
     <meta property="og:image" content="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQlhDeuHe9SR-O0yQnVQS0sq-FixIKMmKJyg&usqp=CAU">
     <title>Calculator</title>
 </head>
 <body>
-    <div class="toogleBtn"></div>
-    <div class="calculator">
-        <div class="buttons">
-            <h2 id="value"></h2>
-            <span id="clear">Clear</span>
-            <span>/</span>
-            <span>*</span>
-            <span>7</span>
-            <span>8</span>
-            <span>9</span>
-            <span>-</span>
-            <span>4</span>
-            <span>5</span>
-            <span>6</span>
-            <span id="plus">+</span>
-            <span>1</span>
-            <span>2</span>
-            <span>3</span>
-            <span>0</span>
-            <span>00</span>
-            <span>.</span>
-            <span id="equal">=</span>
-        </div>
-    </div>
+	<div class="toogleBtn"></div>
+		<div id="calculator">
+			<div id="result">
+				<div id="output-text">
+					<div id="history">
+						<p id="history-value"></p>
+					</div>
+					<div id="output">
+						<p id="output-value"></p>
+					</div>
+				</div>
+				<div id="output-microphone">
+					<span id="microphone">
+					</span>
+					<span class="tooltip">Operations are plus, minus, multiply, divide &amp; reminder
+					The user input format is number + operation + number<br><br>
+					Like "2 multiply 5" will be 2*5
+					</span>
+				</div>
+			</div>
+			<div id="keyboard">
+				<button class="operator" id="clear">Clear</button>
+				<button class="operator" id="/">&#247;</button>
+				<button class="operator" id="*">&times;</button>
+				<button class="number" id="7">7</button>
+				<button class="number" id="8">8</button>
+				<button class="number" id="9">9</button>
+				<button class="operator" id="-">-</button>
+				<button class="number" id="4">4</button>
+				<button class="number" id="5">5</button>
+				<button class="number" id="6">6</button>
+				<button class="operator addition" id="+">+</button>
+				<button class="number" id="1">1</button>
+				<button class="number" id="2">2</button>
+				<button class="number" id="3">3</button>
+				<button class="number" id="0">0</button>
+				<button class="operator" id="backspace">CE</button>
+				<button class="operator" id="%">%</button>
+				<button class="operator" id="=">=</button>
+			</div>
+		</div>
+	<script type="text/javascript" src="https://code.responsivevoice.org/responsivevoice.js"></script>
+	<script src="logic.js"></script>
 </body>
-<script src="logic.js"></script>
 </html>
